@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+    ">
+    <title>Men's Footwear</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/856c7ce13b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./image 1-fotor-bg-remover-2023092912473.png" alt="Girl in a jacket" width="50" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./MenClothing.html">Men's</a></li>
+              <li><a class="dropdown-item" href="./WomenClothing.html">Women's</a></li>
+              <li><a class="dropdown-item" href="./KidsClothing.html">Kid's</a></li>
+              <li><a class="dropdown-item" href="./Accesories.html">Accesories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Customer Care</a>
+          </li>
+          
+        </ul>
+        
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        
+        <div class="dropdown text-end">
+
+            
+            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#">Cart<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg> 
+                  </a></li>
+                <li><a class="dropdown-item" href="#">Proflie</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+      <div class="menMainBanner" style="background-image: url(./MEN/Men\ Banner\ Main.webp); height: 350px; width: auto;">
+      </div>
+    
+
+
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end ">
+    <button class="btn btn-outline-dark carted" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Cart <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </svg></button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">Your cart</span>
+          <span class="badge bg-primary rounded-pill">3</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Product name</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$12</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Second product</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$8</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Third item</h6>
+              <small class="text-body-secondary">Brief description</small>
+            </div>
+            <span class="text-body-secondary">$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+            <div class="text-success">
+              <h6 class="my-0">Promo code</h6>
+              <small>EXAMPLECODE</small>
+            </div>
+            <span class="text-success">−$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Total (USD)</span>
+            <strong>$20</strong>
+          </li>
+        </ul>
+
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Promo code">
+            <button type="submit" class="btn btn-secondary">Redeem</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Billing address</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required="">
+              <div class="invalid-feedback">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select" id="country" required="">
+                <option value="">Choose...</option>
+                <option>United States</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">State</label>
+              <select class="form-select" id="state" required="">
+                <option value="">Choose...</option>
+                <option>California</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required="">
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">Save this information for next time</label>
+          </div>
+
+          <hr class="my-4">
+
+          <h4 class="mb-3">Payment</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+              <label class="form-check-label" for="credit">Credit card</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="debit">Debit card</label>
+            </div>
+            <div class="form-check">
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Name on card</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+              <small class="text-body-secondary">Full name as displayed on card</small>
+              <div class="invalid-feedback">
+                Name on card is required
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Credit card number</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+              <div class="invalid-feedback">
+                Credit card number is required
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Expiration</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+              <div class="invalid-feedback">
+                Expiration date required
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+              <div class="invalid-feedback">
+                Security code required
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+        </form>
+      </div>
+  </div>
+</div>
+
+  </div>
+
+
+<!-- Try2 -->
+
+<div class="container ">
+  <div class="row row-cols-4 row-cols-lg-4 g-2 g-lg-3 productcat4">
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899</p>
+          
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 7.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 9.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 10.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 11.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 12.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 13.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+    <div class="col">
+      <div class="p-3">    <div class="col"><div class="card" style="width: 14rem;">
+        <img src="./MEN/MEN FOOTWEAR/Men Footwear 4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Footwear</h5>
+          <p class="card-text">Price: ₹1899
+
+          </p>
+          <button type="button" class="btn btn-outline-dark">Add to cart</button>
+        </div>
+      </div></div></div>
+    </div>
+
+  </div>
+
+
+  
+
+
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end productnav">
+    <a href="">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+    </svg></a>
+    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+    </svg></a>
+  </div>
+</div>
+
+
+
+<h1 class="text-center">
+  Check out some more Deals
+</h1>
+
+<a href="">
+
+  <div class="SmallBanner">
+    <h1></h1>
+  </div>
+</a>
+
+
+      <!--Footer-->
+      <div class="footcont">
+        <footer class="py-0">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Snitch</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Help</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Follow Us</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Insta</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Twitter</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <script src="./script.js"></script>
+</body>
+</html>

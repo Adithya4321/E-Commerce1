@@ -1,0 +1,136 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #edede398;
+}
+
+.logo1{
+    width: 40;
+
+}
+
+.carousel{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.navbar{
+    background-color: #e4decd;
+}
+.navbar #form{
+    background-color: #edede3;
+}
+
+.footcont{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 100px;
+    background-color: #e4dcc5;
+    /* color:white; */
+}
+
+.footcont h5{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.footcont li{
+    font-size: 15px;
+}
+
+
+.lowerjumbo{
+    color: rgb(0, 0, 0);
+}
+
+.marketing{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.brandhead{
+    font-size: 40px;
+}
+
+.brandhead2{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.card1{
+    background-image: url("./Banner1.jpg");
+    width: 278px;
+    height: 430px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    margin-left: 14px;
+}
+.card2{
+    background-image: url("./Banner2.jpg");
+    width: 278px;
+    height: 430px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+.card3{
+    background-image: url("./Banner3.jpg");
+    width: 278px;
+    height: 430px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+.feature2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.productcat4{
+    margin: 50px;
+    margin-bottom: 50px;
+}
+.productnav{
+    padding-right: 70px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.SmallBanner{
+    background-image: url(./BannerSmallMen.avif);
+    height: 384px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.SmallBannerW{
+    background-image: url(./MiniBannerWomen.avif);
+    height: 384px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.SmallBannerK{
+    background-image: url(./MiniBannerKids.avif);
+    height: 384px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+.SmallBannerA{
+    background-image: url(./Accessories.webp);
+    height: 384px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.carted{
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-bottom: -50px;
+}
